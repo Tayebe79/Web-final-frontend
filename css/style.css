@@ -304,14 +304,14 @@ button1 {
 
 
 .flip-card-front {
-  background-color: #bbb;
+  background-color: rgb(177, 237, 167);
   color: black;
 }
 
 
 .flip-card-back {
-  background-color: rgb(187, 234, 191);
-  color: white;
+  background-color: rgb(152, 204, 143);
+  color: rgb(162, 229, 174);
   transform: rotateY(180deg);
 }
 
@@ -362,12 +362,12 @@ button1 {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  background-color: rgb(159, 165, 160)
+  background-color: rgb(197, 233, 184)
 }
 
 .column {
   flex: 50%;
-  background-color: rgb(211, 238, 207);
+  background-color: rgb(224, 243, 207);
   font-size: 20px;
 }
 
