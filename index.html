@@ -9,6 +9,25 @@
     <link rel="icon" type="image/png" href="./images/favicon.png" />
 </head>
 <body>
+  
+  <div class="navbar">
+    <a href="#menuactivation"><button ><i class="gg-menu-right"></i></button></a>
+  </div>
+  <div class="menu" id="menuactivation">
+    <div class="closeMenu">
+      <a class="menuClose" href="#clclose">&times;</a>
+    </div>
+    <div class="menubody">
+      <h2>Menu</h2>
+      <div class="menu-container">
+        <div class="menuItem"><a href="#">Item 1</a></div>
+        <div class="menuItem"><a>Item 2</a></div>
+        <div class="menuItem"><a>Item 3</a></div>
+        <div class="menuItem"><a>Item 4</a></div>
+      </div>
+    </div>
+  </div>
+
     <div class="container">
       <div class="header">
         <header>
@@ -39,15 +58,18 @@
         </div>
       
         <div class="books">
-          <div id="popup1" class="overlay">
-            <div class="popup">
-              <h2>Here i am</h2>
-              <a class="close" href="#relatedbooks">&times;</a>
-              <div class="content">
-                <img src="images/Background.jpg" alt="Card 4">
-                Thank to pop me out of that button, but now i'm done so you can close this window.
+            <div id="popup1" class="overlay">
+              <div class="popup-container">
+                <div class="popup">
+                  <h2>Here i am</h2>
+                  <a class="close" href="#relatedbooks">&times;</a>
+                  <div class="content">
+                    <img src="images/Background.jpg" alt="Card 4">
+                    Thank to pop me out of that button, but now i'm done so you can close this window.
+                  </div>
+                  <div class="amazon"><a href="http://amazon.com/"><button>Amazon</button></a></div>
+                </div>
               </div>
-            </div>
           </div>
 
           <div id="popup2" class="overlay">
@@ -114,7 +136,7 @@
             </div>
         <!-- </div> -->
               <!-- <div class="footer">Footer</div> -->
-              <div class="columns">
+              <div class="columns footer">
                 <!-- left side -->
                 <div class="column">
                   <a class='link' href="https://tayebe79.github.io/Web-final-frontend/">class info</a> <br>
