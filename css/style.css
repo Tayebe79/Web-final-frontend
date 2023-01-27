@@ -386,15 +386,3 @@ button1 {
   color: rgb(7, 134, 39);
   text-decoration: none;
 }
-/* Media queries for responsive design */
-/* @media (max-width: 600px) {
-  .header, .lectures, .books, .footer {
-    width: 90%;
-    margin: 5px auto;
-  }
-  header {
-    background-size: contain;
-    background-position: top left;
-  }
-
-} */
