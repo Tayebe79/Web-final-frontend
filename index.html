@@ -13,7 +13,7 @@
       <div class="header">
         <header>
             <h1>Web Development</h1>
-            <button><a href="#related-books">Related Books</a></button>
+            <button><a href="#relatedbooks">Related Books</a></button>
         </header>
       </div>
       
@@ -21,31 +21,28 @@
             <div class="cards-container">
                 <div class="card">
                     <img src="images/css_icon.png" alt="Card 1">
-                    <h2>The Hypertext Transfer Protocol is an application layer protocol in the Internet protocol suite model for distributed, collaborative, hypermedia information systems.</h2>
+                    <h2>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</h2>
                 </div>
                 <div class="card">
                   <img src="images/go_icon.png" alt="Card 2">
-                    <h2></h2>
+                    <h2>Go is a statically typed, compiled high-level programming language designed at Google by Robert Griesemer, Rob Pike, and Ken Thompson. It is syntactically similar to C, but with memory safety, garbage collection, structural typing, and CSP-style concurrency.</h2>
                 </div>
                 <div class="card">
                   <img src="images/http_icon.png" alt="Card 3">
-                    <h2></h2>
+                    <h2>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.</h2>
                 </div>
                 <div class="card">
                   <img src="images/js_icon.png" alt="Card 4">
-                    <h2></h2>
+                    <h2>JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries.</h2>
                 </div>
             </div>                          
         </div>
-
-
-
+      
         <div class="books">
-
           <div id="popup1" class="overlay">
             <div class="popup">
               <h2>Here i am</h2>
-              <a class="close" href="#">&times;</a>
+              <a class="close" href="#relatedbooks">&times;</a>
               <div class="content">
                 <img src="images/Background.jpg" alt="Card 4">
                 Thank to pop me out of that button, but now i'm done so you can close this window.
@@ -56,7 +53,7 @@
           <div id="popup2" class="overlay">
             <div class="popup">
               <h2>Here i am</h2>
-              <a class="close" href="#">&times;</a>
+              <a class="close" href="#relatedbooks">&times;</a>
               <div class="content">
                 lala2
               </div>
@@ -66,14 +63,14 @@
           <div id="popup3" class="overlay">
             <div class="popup">
               <h2>Here i am</h2>
-              <a class="close" href="#">&times;</a>
+              <a class="close" href="#relatedbooks">&times;</a>
               <div class="content">
                 lala3
               </div>
             </div>
           </div>
 
-            <div class="book-container">
+            <div class="book-container" id="relatedbooks">
                 <h1 class="hover-2">
                   MOST POPULAR BOOKS
                 </h1>
@@ -85,9 +82,7 @@
                         <img src="images/Book1-1.jpg" alt="Avatar" style="width:200px;height:300px;">
                       </div>
                       <div class="flip-card-back">
-                        <h1>John Doe</h1>
-                        <p>Architect & Engineer</p>
-                        <p>We love that guy</p>
+                        <p>Price:</p>
                         <button1><a href="#popup1">Buy Now!</a></button1>
                       </div>
                     </div>
@@ -98,9 +93,7 @@
                         <img src="images/Book2-1.jpg" alt="Avatar" style="width:200px;height:300px;">
                       </div>
                       <div class="flip-card-back">
-                        <h1>John Doe</h1>
-                        <p>Architect & Engineer</p>
-                        <p>We love that guy</p>
+                        <p>Price:</p>
                         <button1><a href="#popup2">Buy Now!</a></button1>
                       </div>
                     </div>
@@ -111,9 +104,7 @@
                         <img src="images/Book3-1.jpg" alt="Avatar" style="width:200px;height:300px;">
                       </div>
                       <div class="flip-card-back">
-                        <h1>John Doe</h1>
-                        <p>Architect & Engineer</p>
-                        <p>We love that guy</p>
+                        <p>Price:</p>
                         <button1><a href="#popup3">Buy Now!</a></button1>
                       </div>
                     </div>
@@ -121,6 +112,7 @@
                 </div>
               </div>
             </div>
+        <!-- </div> -->
               <!-- <div class="footer">Footer</div> -->
               <div class="columns">
                 <!-- left side -->
@@ -135,7 +127,6 @@
                   <p> Created by Tayebe Mohebi</p>
                 </div>
               </div>
-            <!-- </div> -->
     </div>      
 </body>
 </html>
